@@ -10,7 +10,7 @@ func main() {
 	switch {
 	case 0 > 1:
 		fmt.Println("zero is greater than one")
-	case:
+	case 0 < 1:
 		fmt.Println("one is greater than zero")
 	}
 }

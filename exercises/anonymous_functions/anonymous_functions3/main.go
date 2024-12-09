@@ -16,7 +16,7 @@ func updateStatus() func() string {
 
 	return func() string {
 		index++
-		return "What should I return?"
+		return orderStatus[index]
 	}
 }
 
@@ -24,7 +24,8 @@ func main() {
 	anonymous_func := updateStatus()
 	var status string
 
-	status = anonymous_func()
+	anonymous_func()
+	anonymous_func()
 	status = anonymous_func()
 
 	if status == "DONE" {

@@ -12,7 +12,7 @@ func main() {
 		"John": "+01 333 666",
 	}
 
-	for := range {
+	for name, phone := range phoneBook {
 		fmt.Printf("%s has the %s phone\n", name, phone)
 	}
 }

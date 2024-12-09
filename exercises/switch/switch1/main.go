@@ -8,7 +8,7 @@ import "fmt"
 
 func main() {
 	status := "open"
-	switch {
+	switch status {
 	case "open":
 		fmt.Println("status is open")
 	case "closed":
