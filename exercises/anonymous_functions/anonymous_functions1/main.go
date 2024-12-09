@@ -10,6 +10,6 @@ func main() {
 
 	func(name string) {
 		fmt.Printf("Hello %s", name)
-	}()
+	}("Best")
 
 }
